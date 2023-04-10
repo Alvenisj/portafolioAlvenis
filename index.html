@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--INDEX PRINCIPAL DE LA PÁGINA--> 
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Portafolio</title>
+  </head>
+  
+<body class="dark">
+
+  <!--Cabecera de la página--> 
+  <header class="header">
+      <!--Contenedor del icono dark mode y el texto-->
+           <div class="switches">
+             <div id="toggle-theme" class="toggle-theme">
+               <img id="toggle-theme__icon" class="toggle-theme__icon" src="./icons/moon.svg" alt="icon theme"> 
+               <p id="toggle-theme__text" class="toggle-theme__text">Dark Mode</p>
+             </div>
+           </div>
+
+          
+
+        <!--Contenedor de los colores-->
+        <div id="toggle-colors" class="colors">
+          <div data-color="hsl(184, 89%, 51%)" class="colors__item colors__item--blue"></div>
+          <div data-color="hsl(0, 100%, 51%)" class="colors__item colors__item--red"></div>
+          <div data-color="hsl(24, 97%, 38%)" class="colors__item colors__item--orange"></div>
+          <div data-color="hsl(152, 91%, 42%)" class="colors__item colors__item--green"></div>
+        </div>
+
+</header>
+
+<!--Cuerpo principal de la página web--> 
+<main class="main">
+
+  <section class="column colum--left">
+      <!--PROFILE CARD-->
+    <article class="card card--profile">
+
+           <div class="card__image-container-perfil">
+             <img src="./images/perfil.jpeg" class="img" alt="">
+           </div>
+
+           <div class="card__header">
+             <h2 class="card__title no-margin">Hello! My name is:  Alvenis Becerra</h2>
+             <p class="card__subtitle">FrontEnd Developer - Systems Engineer -  </p>
+           </div>
+
+           
+
+           <div class="card__body">
+              <div class="card__link">
+                <i class="fas fa-envelope icon"></i>
+                <a href="mailto:Alvenisj@gmail.com">Alvenisj@gmail.com</a>
+             </div>
+          <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:3232914082">+57 323-2914082</a>
+          </div>
+
+            <p class="card__text" data-section="profile" data-value="description">
+              Systems engineer with 5 years of experience in the professional area, carrying out different digital transformation projects that have resulted in successful developments. Extensive knowledge in creating web pages and web applications.
+              Full-time experience working with technologies such as: 
+              - NodeJs(React) API development and integrations. 
+              - Server settings and deployments, I constantly stay up to date with the most recent updates. 
+              
+               I provide high-quality code that is safe and easy to maintain.
+            </p>
+
+            <div class="card__body">
+              <a href="#" class="btn modal-btn">Contact me</a>
+             </div>
+
+                <div class="fotoPerfil">
+                          
+                        <img src="./images/c.jpg" alt="planification">
+                 </div>
+    
+    </article>
+   
+    <article class="card card--experience">
+              
+           <h2 class="card__title">Experiences</h2>
+
+             <div class="experience">
+                <img src="./images/a.jpg" alt="logo" class="experience__image">
+                  <div class="experience__info">
+                          <p class="experience__time" data-section="experience" data-value="firs-job-dates">
+                              January 2015 - January 2018 - Müröntö: Centro de Innovacion para el Desarrollo.
+                              Caracas - Venezuela.
+                         </p>
+                         <h3 class="experience__job" data-section="experience" data-value= "firs-job-title">Systems Engineer Junior</h3>
+                         <p class="experience__description" data-section="experience" data-value= "firs-job-description">My main task was to correct the programming errors of the systems created by the department of this company and report the errors to my superiors.</p>
+                  </div>
+              </div>
+
+              <div class="experience">
+                <img src="./images/b.jpg" alt="logo" class="experience__image">
+                  <div class="experience__info">
+                          <p class="experience__time" data-section="experience" data-value="second-job-dates">
+                              June 2018 - June 2019 Fasmee - MPPEE.
+                              Caracas - Venezuela.
+                         </p>
+                         <h3 class="experience__job" data-section="experience" data-value="second-job-title">Full Stack Developer</h3>
+                         <p class="experience__description">In this company I was able to take charge of programming and direct design of different systems related to the world of Web Programming.</p>
+                  </div>
+              </div>
+
+           <div class="experience">
+            <img src="./images/f.jpg" alt="logo" class="experience__image">
+                <div class="experience__info">
+                       <p class="experience__time" data-section="experience" data-value="last-job-dates">
+                             June 2019 - Current
+                      </p>
+                      <h3 class="experience__job" data-section="experience" data-value="last-job-title">Freelance FrontEnd Developer</h3>
+                      <p class="experience__description" data-section="experience" data-value="last-job-description">
+                        Experience defining the structure of the web, to facilitate the interactivity between the user and the Web or App, taking into account the usability and readability, that is, develop the user interface with JAVASCRIPT, REACT, from the point of view of the code, so that interaction with the system is possible.
+                        Additional full-time experience working with technologies such as:
+              - NodeJs(React) API development and integrations 
+              - Server settings and deployments, I constantly stay up to date with the most recent updates.
+              - Developer MERN</p>
+               </div>
+          </div>
+
+          <article class="card card--hobbies">
+    
+                    <h2 class="card__title">Hobbies</h2>
+  
+                     <div class="card__image-container">
+                            <img src="./images/e.jpg" alt="Man on a bike">
+                     </div>
+
+                     <h3 class="hobbie__title">Biking</h3>
+                     <p class="card__text">
+                           Bicycling is a way for people to get outside and get moving after a day of being indoors at work or school. As a hobby, it promotes good health and physical fitness. In addition, bicycling is relatively inexpensive when compared to other activities. To get the most enjoyment out of bicycling, it helps to start out correctly as a beginner. This means learning the basics about bicycling and bike care, which will build confidence while riding and help prevent injury to oneself and others.
+                     </p>
+
+          </article>
+
+
+           <article class="card card--hobbies">
+
+                   <div class="card__image-container">
+                     <img src="./images/d.jpg" alt="Caminar">
+                   </div>
+                   <h3 class="hobbie__title">Hiking/Nature Walks</h3>
+                   <p class="card__text">
+               Hiking is a great way to get out there and see some really cool places. 
+                   </p>
+
+           </article>
+
+    </article>
+
+</section>
+
+<!--SEGUNDA SECCIÓN DEL LADO DERECHO DE LA PÁGINA-->
+<section class="column column--right">
+    
+  <article class="card">
+
+    <h2 class="card__title">Front-End</h2>
+    <small>years of experience</small>
+    <div class="skills"></div>
+
+    <div class="skills__header">
+        <span class="skills__start-level">0</span>   
+        <span class="skills__start-level">5</span>
+    </div>
+
+    <div class="skills">
+
+             <div class="skills__item">
+               <p class="skills__tech">Javascript</p>
+               <div class="skills__bar skills__bar--90"></div>
+          </div>
+          <div class="skills__item">
+              <p class="skills__tech">React</p>
+              <div class="skills__bar skills__bar--70"></div>
+          </div>
+          <div class="skills__item">
+              <p class="skills__tech">Typescript</p>
+              <div class="skills__bar skills__bar--50"></div>
+          </div>
+
+           <div class="skills__item">
+            <p class="skills__tech">Css, Sass</p>
+            <div class="skills__bar skills__bar--90"></div>
+         </div>
+
+         <div class="skills__item">
+           <p class="skills__tech">HTML5</p>
+           <div class="skills__bar skills__bar--90"></div>
+        </div>
+        
+    </div>
+
+</article>
+
+
+    <article class="card">
+
+      <h2 class="card__title">Back-End</h2>
+      <small>years of experience</small>
+      <div class="skills"></div>
+
+      <div class="skills__header">
+          <span class="skills__start-level">0</span>   
+          <span class="skills__start-level">3</span>
+      </div>
+
+      <div class="skills">
+
+            <div class="skills__item">
+                <p class="skills__tech">Node JS</p>
+                <div class="skills__bar skills__bar--60"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Api Rest</p>
+              <div class="skills__bar skills__bar--40"></div>
+           </div>
+
+             <div class="skills__item">
+                <p class="skills__tech">C++</p>
+                <div class="skills__bar skills__bar--20"></div>
+             </div>
+
+            <div class="skills__item">
+               <p class="skills__tech">SQL</p>
+               <div class="skills__bar skills__bar--90"></div>
+           </div>
+           <div class="skills__item">
+               <p class="skills__tech">MongoDb</p>
+               <div class="skills__bar skills__bar--60"></div>
+           </div>
+      </div>
+
+</article>
+
+<article class="card">
+
+  <h2 class="card__title">skills and knowledge</h2>
+  <small>additional skills</small>
+  <div class="skills"></div>
+
+  <div class="skills">
+
+        <div class="skills__item">
+            <p class="skills__tech">Extensive problem solving ability</p>
+            <div class="skills__bar skills__bar--90"></div>
+        </div>
+
+         <div class="skills__item">
+            <p class="skills__tech">Methodical and creative ability.</p>
+            <div class="skills__bar skills__bar--80"></div>
+         </div>
+
+         <div class="skills__item">
+          <p class="skills__tech">Knowledge of computer systems</p>
+          <div class="skills__bar skills__bar--100"></div>
+       </div>
+         <div class="skills__item">
+          <p class="skills__tech">team collaboration</p>
+          <div class="skills__bar skills__bar--100"></div>
+       </div>
+
+      
+        <div class="skills__item">
+           <p class="skills__tech">English fluency</p>
+           <div class="skills__bar skills__bar--70"></div>
+       </div>
+  </div>
+
+</article>
+
+
+    <article class="card card--project">
+      
+           <div class="card__image-container">
+               <img class="card__image" src="./images/f.jpg" alt="Landing Page">
+           </div>
+       <div class="project">
+
+            <div class="project__tags">
+                <span class="project__tag">#MongoDb</span>
+                <span class="project__tag">#CSS</span>
+                <span class="project__tag">#Javascript</span>
+                <span class="project__tag">#Responsive</span>
+                
+            </div>
+
+            <h2 class="card__title">Website for business (Javascript vanilla)</h2>
+            <p class="card__text">Website developed for a small business; using the technologies of HTML, JAVASCRIPT (VANILLA), CSS (ADVANCED)</p>
+            <p class="card__text">GENALCA, It is a generic cleaning company, dedicated to the wholesale and retail sale of its products.</p>
+ 
+            <div class="buttons">
+                <a href="https://alvenisj.github.io/app-genalcaWeb/" class="button button--primary">Demo</a>
+                <a href="https://github.com/Alvenisj/app-genalcaWeb" class="button button--ghost">Code</a>
+           </div>
+
+       </div> 
+   </article>
+
+   <article class="card card--project">
+      
+    <div class="card__image-container">
+        <img class="card__image" src="./images/g.jpg" alt="Landing Page">
+    </div>
+  <div class="project">
+  
+     <div class="project__tags">
+         <span class="project__tag">#HTML</span>
+         <span class="project__tag">#NodeJs</span>
+         <span class="project__tag">#Javascript</span>
+         <span class="project__tag">#Responsive</span>
+     </div>
+  
+     <h2 class="card__title">Menu and submenu Responsive (Javascript vanilla)</h2>
+     <p class="card__text">dynamic responsive menu of a website, developed with vanilla javascript</p>
+     
+     <div class="buttons">
+         <a href="https://alvenisj.github.io/app-dinamicMenuWeb" class="button button--primary">Demo</a>
+         <a href="https://github.com/Alvenisj/app-dinamicMenuWeb" class="button button--ghost">Code</a>
+    </div>
+  
+  </div>
+  
+  
+     </article>
+
+    <article class="card card--project">
+      
+           <div class="card__image-container">
+               <img class="card__image" src="./images/h.jpg" alt="Landing Page">
+           </div>
+       <div class="project">
+
+            <div class="project__tags">
+                <span class="project__tag">#MongoDb</span>
+                <span class="project__tag">#CSS</span>
+                <span class="project__tag">#Javascript</span>
+                <span class="project__tag">#Responsive</span>
+                
+            </div>
+
+            <h2 class="card__title">Module of a website that searches for articles (Javascript vanilla)</h2>
+            <p class="card__text">It is an application developed with vanilla Javascript; that looks for articles through a menu and an input</p>
+      
+            <div class="buttons">
+                <a href="https://alvenisj.github.io/app-searchArticleJs/" class="button button--primary">Demo</a>
+                <a href="https://github.com/Alvenisj/app-searchArticleJs/" class="button button--ghost">Code</a>
+           </div>
+
+       </div>
+
+   
+   </article>
+
+   <article class="card card--project">
+      
+    <div class="card__image-container">
+        <img class="card__image" src="./images/i.jpg" alt="Landing Page">
+    </div>
+  <div class="project">
+  
+     <div class="project__tags">
+         <span class="project__tag">#HTML</span>
+         <span class="project__tag">#CSS</span>
+         <span class="project__tag">#Javascript</span>
+         <span class="project__tag">#Responsive</span>
+     </div>
+  
+     <h2 class="card__title">Task List Project (Vanilla Javascript)</h2>
+     <p class="card__text">task list project, developed with vanilla javascript. It makes a list of tasks and you can add, edit or delete new tasks.</p>
+    
+     <div class="buttons">
+         <a href="https://alvenisj.github.io/app-taskJavascript/" class="button button--primary">Demo</a>
+         <a href="https://github.com/Alvenisj/app-taskJavascript" class="button button--ghost">Code</a>
+    </div>
+  
+  </div>
+     </article>
+
+   <article class="card card--project">
+      
+  <div class="card__image-container">
+      <img class="card__image" src="./images/j.jpg" alt="Landing Page">
+  </div>
+<div class="project">
+
+   <div class="project__tags">
+       <span class="project__tag">#ReactJs</span>
+       <span class="project__tag">#CSS</span>
+       <span class="project__tag">#Javascript</span>
+       <span class="project__tag">#Responsive</span>
+   </div>
+
+   <h2 class="card__title">calculator (React)</h2>
+   <p class="card__text">It is an application developed with React; which simulates a calculator dynamically.</p>
+   <p class="card__text">It is an application designed in the form of a calculator, which solves all the arithmetic operations of addition, subtraction, multiplication and division.</p>
+ 
+   <div class="buttons">
+       <a href="https://alvenisj.github.io/app-calculatorReact/" class="button button--primary">Demo</a>
+       <a href="https://github.com/Alvenisj/app-calculatorReact" class="button button--ghost">Code</a>
+  </div>
+
+</div>
+
+   </article>
+
+   <article class="card card--project">
+      
+    <div class="card__image-container">
+        <img class="card__image" src="./images/k.jpg" alt="Landing Page">
+    </div>
+  <div class="project">
+  
+     <div class="project__tags">
+         <span class="project__tag">#HTML</span>
+         <span class="project__tag">#ApiRest</span>
+         <span class="project__tag">#Javascript</span>
+         <span class="project__tag">#Responsive</span>
+     </div>
+  
+     <h2 class="card__title">Task Log App (React)</h2>
+     <p class="card__text">project developed with React technology; It is an app that records tasks and the user can then delete them or mark them as completed tasks.</p>
+     <p class="card__text">It is a dynamic application, which uses concepts of custom hooks, function components.</p>
+  
+     <div class="buttons">
+         <a href="https://alvenisj.github.io/app-tasksReact/" class="button button--primary">Demo</a>
+         <a href="https://github.com/Alvenisj/app-tasksReact" class="button button--ghost">Code</a>
+    </div>
+  
+  </div>
+  
+  
+     </article>
+   <article class="card card--project">
+      
+    <div class="card__image-container">
+        <img class="card__image" src="./images/l.jpg" alt="Landing Page">
+    </div>
+  <div class="project">
+  
+     <div class="project__tags">
+         <span class="project__tag">#Responsive</span>
+         <span class="project__tag">#ApiRest</span>
+         <span class="project__tag">#Javascript</span>
+         <span class="project__tag">#HTML</span>
+     </div>
+  
+     <h2 class="card__title">Application pagination (Javascript vanilla)</h2>
+     <p class="card__text">It is an application that consumes an API and paginates the users.</p>
+     <p class="card__text">It is an application that is responsible for paging the requested users to a github api and displays them in the interface according to the paging</p>
+  
+     <div class="buttons">
+         <a href="https://alvenisj.github.io/app-paginationJs" class="button button--primary">Demo</a>
+         <a href="https://github.com/Alvenisj/app-paginationJs" class="button button--ghost">Code</a>
+    </div>
+  
+  </div>
+  
+  
+     </article>
+
+       <article class="card card--project">
+      
+  <div class="card__image-container">
+      <img class="card__image" src="./images/m.jpg" alt="Landing Page">
+  </div>
+<div class="project">
+
+   <div class="project__tags">
+       <span class="project__tag">#HTML</span>
+       <span class="project__tag">#CSS</span>
+       <span class="project__tag">#Javascript</span>
+       <span class="project__tag">#Responsive</span>
+   </div>
+
+   <h2 class="card__title">Modal Window Project (Javascript vanilla)</h2>
+   <p class="card__text">It is a modal window developed with vanilla javascript</p>
+   <p class="card__text">is a simple application that displays a modal window on the entire screen of the website, in the form of a notification to inform the user of relevant and important information about the website</p>
+
+
+   <div class="buttons">
+       <a href="https://alvenisj.github.io/app-ventanaModalJavascript/" class="button button--primary">Demo</a>
+       <a href="https://github.com/Alvenisj/app-ventanaModalJavascript" class="button button--ghost">Code</a>
+  </div>
+
+</div>
+
+
+   </article>
+
+ </section>
+
+</main>
+
+
+<footer class="footer">
+  <div class="social">
+      <a href="https://www.facebook.com/alvenisj" class="icon-facebook">
+          <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="https://twitter.com/alvenisj" class="icon-twitter">
+          <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com/alvenisj" class="icon-instagram">
+          <i class="fa-brands fa-instagram-square"></i>
+      </a>
+      <a href="#" class="icon-googleplus">
+          <i class="fa-brands fa-google-plus-g"></i>
+      </a>
+      <a href="https://wa.me/573232914082?text=¡HOLA!%20necesito%20información" class="icon-whatsapp">
+          <i class="fa-brands fa-whatsapp"></i>
+      </a>
+
+     
+  </div>
+  <p class="copy">Alvenis Becerra- 2023 - <a class="footer-copy" href="#">Copyright &copy; all right reserved</a></p>
+</footer>
+
+ <!-- modal -->
+ <div class="modal-overlay">
+  <div class="modal-container">
+    
+    <h3>¡Welcome to my portfolio of services!</h3>
+       <p>Professional Front End Web Developer with 5 years of work experience in a highly competitive environment. I will fix bugs on your website or if you need to add more features to your websites. I will put all my best efforts and creativity to ensure 100% satisfaction, fast delivery and quality services.</p>
+     <button class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+     <a href="https://wa.me/573232914082?text=¡HOLA!%20necesito%20información" class="contacto">
+      <i class="fa-brands fa-whatsapp"></i>  Whatsapp</a>
+  </div>
+</div>
+
+
+
+
+
+    <script src="./app.js"></script>
+  </body>
+</html>
